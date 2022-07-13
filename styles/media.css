@@ -1,0 +1,131 @@
+@media(max-width:768px){
+    .header__container{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .header__menu{
+        margin-bottom: 20px;
+    }
+    .adress__text {
+        font-size: 12px
+    }
+    .adress__title{
+        font-size: 15px;
+    }
+    .services__block{
+        text-align: center;
+    }
+    .services__img img{
+        width: 100%;
+    }
+    .services__name {
+        text-align: center;
+    }
+    .about {
+        padding: 61px 0;
+    }
+    .about__img img{
+        width: 100%;
+    }
+    .about__title {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .about__content {
+        display: block;
+        max-width: 379px;
+        /* margin-right: 10px; */
+        text-align: center;
+    }
+    .about__container{
+        flex-direction: column;
+    }
+    .about__text{
+        font-size: 12px;
+        font-size: inherit;
+    }
+    .fast__title {
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .fast__subtitle {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 150%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .fast__name {
+        font-size: 11px;
+    }
+    .fast__text {
+        font-size: 14px;
+    }
+}    
+
+
+@media(max-width:320px){
+    .adress__body {
+        flex-direction: column;
+    }
+    .services__body {
+        flex-direction: column;
+    }
+    .fast__body {
+        flex-direction: column;
+    }
+    .menu__item + .menu__item {
+        margin-left: 25px;
+    }
+    .road {
+        padding-top: 230px;
+    }
+    .page__title {
+        font-size: 25px;
+    }
+    .adress__column + .adress__column {
+        margin-left: 0;
+    }
+    .services__img img {
+        width: 85%;
+    }
+    .services__column{
+        text-align: center;
+    }
+    .services__column + .services__column {
+        margin-left: 0;
+    }
+    .services__name{
+        margin-bottom: 10px;
+    }
+    .about__text {
+        letter-spacing: 0;
+        margin-bottom: 20px;
+    }
+    .about__link {
+        margin-bottom: 10px;
+    }.about__img{
+        margin-top: 20px;
+    }
+    .fast__title {
+        font-size: 40px;
+    }
+    .fast__column + .fast__column {
+        margin-left: 0;
+    }
+    .fast__column {
+        margin-bottom: 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer-text{
+        margin-bottom: 20px;
+    }
+}
